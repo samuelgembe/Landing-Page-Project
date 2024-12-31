@@ -33,7 +33,7 @@
                     Hello! Welcome to your Pokemon Journey, <br>
                     it's time to make some tough decisions.
                 </p>
-                <button>Let's choose</button>
+                <button><a href="#pokemon-list">Let's choose</a></button>
             </div>
             <div class="hero__image-container">
                 <img src="images/pokemon-seeklogo.png" alt="logo pokemon">
@@ -41,23 +41,23 @@
         </div>
     </div>
 
-    <div class="pokemon-list">
+    <div class="pokemon-list" id="pokemon-list">
         <div class="pokemon-container">
             <div class="pokemon-list__title">
-                <h2>Choose your Pokemon</h2>
+                <h2>Choose your starter Pokemon</h2>
             </div>
             <div class="pokemon-cards">
                 <div class="card">
-                    <img src="" alt="">
-                    <h4>Pikachu</h4>
+                    <img src="https://archives.bulbagarden.net/media/upload/f/fb/0001Bulbasaur.png" alt="">
+                    <h4>Bulbasaur</h4>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h4>Pikachu</h4>
+                    <img src="https://archives.bulbagarden.net/media/upload/2/27/0004Charmander.png" alt="">
+                    <h4>Charmander</h4>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
-                    <h4>Pikachu</h4>
+                    <img src="https://archives.bulbagarden.net/media/upload/5/54/0007Squirtle.png" alt="">
+                    <h4>Squirtle</h4>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
     <div class="quote">
         <div class="quote-container">
             <p class="quote__text">
-                "I want to become friends with every Pokémon all around the world!
+                "I want to become friends with every Pokémon all around the world!<br>
                 I’m sure that will make me a Pokémon Master."
             </p>
             <p class="quote__author">
@@ -77,9 +77,12 @@
 
     <div class="cta">
         <div class="cta-container">
-            <h3>Not enough?</h3>
-            <p>If you want to become a real Pokemon Master you should learn all about the fantastic Pokemon World</p>
-            <button>Become a Pokemon Master</button>
+            <div class="cta-text">
+                <h3>Not enough?</h3>
+                <p>If you want to become a real Pokemon Master you should<br>
+                learn all about the fantastic Pokemon World</p>
+            </div>
+            <button class="cta-button">Learn more</button>
         </div>
     </div>
 
